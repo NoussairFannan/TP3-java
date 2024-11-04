@@ -9,7 +9,7 @@ Ce premier exercice implémente une exception personnalisée TropViteException p
 ### Classes
 - **TropViteException** : Hérite de `Exception` et indique qu'une vitesse est trop élevée.
 - **Vehicule** : Contient une méthode `testVitesse` qui lance `TropViteException` si la vitesse dépasse 90.
-- **Main** :La méthode main crée un objet Vehicule et utilise la methode testVitesse pour tester deux vitesses. Si la vitesse dépasse 90, une exception est levée et affichée en utilisant la méthode getMessage pour capturer l'erreur.
+- **Main** :La méthode main crée un objet Vehicule et utilise la methode testVitesse pour tester deux vitesses. Si la vitesse dépasse 90, une exception est levée et affichée en utilisant la méthode `getMessage` pour capturer l'erreur.
 ## Exercice 2 : RacineCarreeException
 Dans ce dexieme exercice, l'exception personnalisée RacineCarreeException est implémentée pour vérifier que les nombres utilisés pour une racine carrée sont positifs.
 ### Classes
